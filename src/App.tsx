@@ -8,6 +8,10 @@ import About from "./pages/About";
 import Privacy from "./pages/Privacy";
 import Terms from "./pages/Terms";
 import Transparency from "./pages/Transparency";
+import Games from "./pages/Games";
+import Consoles from "./pages/Consoles";
+import Accessories from "./pages/Accessories";
+import Notebooks from "./pages/Notebooks";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,6 +24,12 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/consoles" element={<Consoles />} />
+          <Route path="/acessorios" element={<Accessories />} />
+          <Route path="/notebooks" element={<Notebooks />} />
+          <Route path="/monitores" element={<Home />} />
+          <Route path="/setup" element={<Home />} />
           <Route path="/sobre" element={<About />} />
           <Route path="/privacidade" element={<Privacy />} />
           <Route path="/termos" element={<Terms />} />
