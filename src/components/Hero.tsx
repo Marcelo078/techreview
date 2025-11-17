@@ -23,8 +23,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            As Melhores
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> Análises </span>
+            Games Reviews:
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> Análises Completas </span>
             de Produtos Gaming
           </h1>
           
