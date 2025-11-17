@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary">
                 <Gamepad2 className="h-6 w-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">Melhores Reviews</span>
+              <span className="text-xl font-bold">Games Reviews</span>
             </Link>
             <p className="text-sm text-background/70">
               As melhores análises de produtos gaming do Brasil. Qualidade, procedência e avaliações verificadas.
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-8 pt-8 text-center text-sm text-background/60">
-          <p>© 2025 Melhores Reviews. Todos os direitos reservados.</p>
+          <p>© 2025 Games Reviews. Todos os direitos reservados.</p>
           <p className="mt-2">
             Este site contém links de afiliados. Podemos receber comissões por compras realizadas através destes links.
           </p>
