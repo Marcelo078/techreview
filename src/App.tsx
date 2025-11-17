@@ -12,6 +12,9 @@ import Games from "./pages/Games";
 import Consoles from "./pages/Consoles";
 import Accessories from "./pages/Accessories";
 import Notebooks from "./pages/Notebooks";
+import Blog from "./pages/Blog";
+import NotebookAcerNitro from "./pages/products/NotebookAcerNitro";
+import AcerIndex from "./pages/brands/AcerIndex";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +33,9 @@ const App = () => (
           <Route path="/notebooks" element={<Notebooks />} />
           <Route path="/monitores" element={<Home />} />
           <Route path="/setup" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/produto/notebook-acer-nitro-anv15" element={<NotebookAcerNitro />} />
+          <Route path="/marcas/acer" element={<AcerIndex />} />
           <Route path="/sobre" element={<About />} />
           <Route path="/privacidade" element={<Privacy />} />
           <Route path="/termos" element={<Terms />} />
